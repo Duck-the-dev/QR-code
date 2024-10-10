@@ -22,15 +22,16 @@
             <input type="text" id="input" class="border border-gray-300 p-2 my-4 rounded w-full" placeholder="Enter URL | ضع الرابط">
             
             <button id="start" class="my-6 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">بدأ | START</button>
-            <script>
-                document.write('<a href="' + document.referrer + '" class="my-6 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">عوده | BACK</a>');
-            </script>
+         
 
         </div>
         <div class="my-6">
             <img id="image" src="" class="w-40 h-40 mx-auto hidden">
         </div>
         <a id="download" class="container my-4 p-6 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 mt-4" href="#" download="qrcode.png">تحميل | DOWNLOAD</a>
+        <script>
+            document.write('<a id="back" href="' + document.referrer + '" class="my-6 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">عوده | BACK</a>');
+        </script>
     </div>
     
     <script src="./app2.js"></script>

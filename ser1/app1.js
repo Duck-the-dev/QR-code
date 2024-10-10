@@ -60,6 +60,8 @@ image.addEventListener('load', () => {
     image.classList.remove('hidden');
     download.classList.remove('hidden');
     button.classList.add('hidden');
+    back.classList.add('hidden');
+
     
     // Fetch the image as a blob and trigger the download
     fetch(image.src)
